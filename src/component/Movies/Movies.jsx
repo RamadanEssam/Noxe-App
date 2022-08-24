@@ -77,6 +77,7 @@ export default function Movies() {
             {person.profile_path ? <img src={imgPath + person.profile_path} className='w-100' alt="" /> : <img src={ProfileImg} className='w-100' alt="" />}
 
             <h6>{person.name}</h6>
+            
 
           </div>
         </div>)}
